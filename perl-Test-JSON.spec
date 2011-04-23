@@ -10,7 +10,7 @@ License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
-
+BuildRequires: perl(JSON)
 BuildRequires: perl(JSON::Any)
 BuildRequires: perl(Test::Differences)
 BuildRequires: perl(Test::Simple)
